@@ -10,7 +10,7 @@ let selectedDestination = null;
 
 const airplaneIconRotated = (angle) => L.divIcon({
   className: '',
-  html: `<img src="../Public/imgs/comp/plane.png" style="width:24px; transform: rotate(${angle}deg); transition: transform 1s linear;">`,
+  html: `<img src="Public/imgs/comp/plane.png" style="width:24px; transform: rotate(${angle}deg); transition: transform 1s linear;">`,
   iconSize: [24, 24],
   iconAnchor: [12, 12]
 });
