@@ -573,7 +573,6 @@
 
       .listItems a:hover,
       .listItems a.active-page {
-        background-color: #003172;
         color: #00cfff;
       }
 
