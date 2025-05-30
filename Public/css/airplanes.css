@@ -38,22 +38,6 @@ body {
   color: #ff5c8d;
 }
 
-.desktop-nav .listItems {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.desktop-nav .listItems li a {
-  color: white;
-  text-decoration: none;
-}
-
-.desktop-nav .listItems li a:hover,
-.desktop-nav .listItems li a.active {
-  color: #00bcd4;
-}
-
 .airplane-search-wrapper {
   display: flex;
   justify-content: center;
