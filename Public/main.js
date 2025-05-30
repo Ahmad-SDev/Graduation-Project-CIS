@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let selectedPlaneCallsign = null;
   let selectedFlightIcao24 = null;
   let routeLayerGroup = L.layerGroup();
-  const MAX_PLANES = 1200;
+  const MAX_PLANES = 1100;
   let mapLayer = null;
   let selectedDestination = null;
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const map = L.map("map", { zoomControl: false }).setView(
     [26.8206, 30.8025],
-    6
+    4
   );
   routeLayerGroup.addTo(map);
 
